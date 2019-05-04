@@ -1,3 +1,3 @@
 " Focus previous project
-nnoremap <leader>FO    :action PreviousProjectWindow<CR>
-vnoremap <leader>FO    <Esc>:action PreviousProjectWindow<CR>
+nnoremap <leader>pp    :action PreviousProjectWindow<CR>
+vnoremap <leader>pp    <Esc>:action PreviousProjectWindow<CR>

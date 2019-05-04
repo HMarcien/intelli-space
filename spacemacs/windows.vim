@@ -75,3 +75,11 @@ vnoremap <leader>wV    <Esc>:action SplitVertically<CR>:action VimWindowRight<CR
 " Focus next window
 nnoremap <leader>ww    :action VimWindowNext<CR>
 vnoremap <leader>ww    <Esc>:action VimWindowNext<CR>
+
+
+" Consistent mapping for split navigation.
+nnoremap <C-l> <C-W>l
+nnoremap <C-h> <C-W>h
+nnoremap <C-j> <C-W>j
+nnoremap <C-k> <C-W>k
+

@@ -1,19 +1,19 @@
 " Go to declaration
-nnoremap <leader>mgg    :action GotoDeclaration<CR>
-vnoremap <leader>mgg    <Esc>:action GotoDeclaration<CR>
+nnoremap <leader>gd    :action GotoDeclaration<CR>
+vnoremap <leader>gd    <Esc>:action GotoDeclaration<CR>
 
 " Go to implementation
-nnoremap <leader>mgi    :action GotoImplementation<CR>
-vnoremap <leader>mgi    <Esc>:action GotoImplementation<CR>
+nnoremap <leader>gi    :action GotoImplementation<CR>
+vnoremap <leader>gi    <Esc>:action GotoImplementation<CR>
 
 " Go to type declaration
-nnoremap <leader>mgt    :action GotoTypeDeclaration<CR>
-vnoremap <leader>mgt    <Esc>:action GotoTypeDeclaration<CR>
+nnoremap <leader>gt    :action GotoTypeDeclaration<CR>
+vnoremap <leader>gt    <Esc>:action GotoTypeDeclaration<CR>
 
 " Go to code block start
-nnoremap <leader>mg[    :action EditorCodeBlockStart<CR>
-vnoremap <leader>mg[    <Esc>:action EditorCodeBlockStart<CR>
+nnoremap <leader>gw    :action EditorCodeBlockStart<CR>
+vnoremap <leader>gw    <Esc>:action EditorCodeBlockStart<CR>
 
 " Go to code block end
-nnoremap <leader>mg]    :action EditorCodeBlockEnd<CR>
-vnoremap <leader>mg]    <Esc>:action EditorCodeBlockEnd<CR>
+nnoremap <leader>ge    :action EditorCodeBlockEnd<CR>
+vnoremap <leader>ge    <Esc>:action EditorCodeBlockEnd<CR>

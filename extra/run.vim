@@ -1,19 +1,11 @@
-" Run Anything
-nnoremap <leader>Ra    :action RunAnything<CR>
-vnoremap <leader>Ra    <Esc>:action RunAnything<CR>
-
 " Run class
-nnoremap <leader>Rc    :action RunClass<CR>
-vnoremap <leader>Rc    <Esc>:action RunClass<CR>
+nnoremap <leader>rc    :action RunClass<CR>
+vnoremap <leader>rc    <Esc>:action RunClass<CR>
 
 " Kill (Stop application)
-nnoremap <leader>Rk    :action Stop<CR>
-vnoremap <leader>Rk    <Esc>:action Stop<CR>
-
-" Run
-nnoremap <leader>Rr    :action Run<CR>
-vnoremap <leader>Rr    <Esc>:action Run<CR>
+nnoremap <leader>rk    :action Stop<CR>
+vnoremap <leader>rk    <Esc>:action Stop<CR>
 
 " Select configuration and run
-nnoremap <leader>Rs    :action ChooseRunConfiguration<CR>
-vnoremap <leader>Rs    <Esc>:action ChooseRunConfiguration<CR>
+nnoremap <leader>rs    :action ChooseRunConfiguration<CR>
+vnoremap <leader>rs    <Esc>:action ChooseRunConfiguration<CR>

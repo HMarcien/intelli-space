@@ -5,3 +5,7 @@ vnoremap <leader>b0    <Esc>:action GoToTab1<CR>
 " Go to last tab
 nnoremap <leader>b$    :action GoToLastTab<CR>
 vnoremap <leader>b$    <Esc>:action GoToLastTab<CR>
+
+" nmap sp :action SplitHorizontally<CR><C-j>
+" nmap vsp :action SplitVertically<CR><C-l>
+

@@ -1,39 +1,35 @@
 " View Breakpoints
-nnoremap <leader>mdB    :action ViewBreakpoints<CR>
-vnoremap <leader>mdB    <Esc>:action ViewBreakpoints<CR>
+nnoremap <leader>dv    :action ViewBreakpoints<CR>
+vnoremap <leader>dv    <Esc>:action ViewBreakpoints<CR>
 
 " Toggle breakpoint
-nnoremap <leader>mdb    :action ToggleLineBreakpoint<CR>
-vnoremap <leader>mdb    <Esc>:action ToggleLineBreakpoint<CR>
+nnoremap <leader>db    :action ToggleLineBreakpoint<CR>
+vnoremap <leader>db    <Esc>:action ToggleLineBreakpoint<CR>
 
 " Clear all breakpoints
-nnoremap <leader>mdC    :action Debugger.RemoveAllBreakpointsInFile<CR>
-vnoremap <leader>mdC    <Esc>:action Debugger.RemoveAllBreakpointsInFile<CR>
+nnoremap <leader>da    :action Debugger.RemoveAllBreakpointsInFile<CR>
+vnoremap <leader>da    <Esc>:action Debugger.RemoveAllBreakpointsInFile<CR>
 
 " Continue (Go to next breakpoint). 'c' is the same as gdb.
-nnoremap <leader>mdc    :action Resume<CR>
-vnoremap <leader>mdc    <Esc>:action Resume<CR>
+nnoremap <leader>dr    :action Resume<CR>
+vnoremap <leader>dr    <Esc>:action Resume<CR>
 
 " Debug class
-nnoremap <leader>mdD    :action DebugClass<CR>
-vnoremap <leader>mdD    <Esc>:action DebugClass<CR>
-
-" Debug
-nnoremap <leader>mdd    :action Debug<CR>
-vnoremap <leader>mdd    <Esc>:action Debug<CR>
+nnoremap <leader>dc    :action DebugClass<CR>
+vnoremap <leader>dc    <Esc>:action DebugClass<CR>
 
 " Next (Step over). 's' is the same as gdb
-nnoremap <leader>mdn    :action StepOver<CR>
-vnoremap <leader>mdn    <Esc>:action StepOver<CR>
+nnoremap <leader>ds    :action StepOver<CR>
+vnoremap <leader>ds    <Esc>:action StepOver<CR>
 
 " Step out (same as "finish" in gdb).
-nnoremap <leader>mdo    :action StepOut<CR>
-vnoremap <leader>mdo    <Esc>:action StepOut<CR>
+nnoremap <leader>do    :action StepOut<CR>
+vnoremap <leader>do    <Esc>:action StepOut<CR>
 
 " Select configuration and debug
-nnoremap <leader>mdr    :action ChooseDebugConfiguration<CR>
-vnoremap <leader>mdr    <Esc>:action ChooseDebugConfiguration<CR>
+nnoremap <leader>dd    :action ChooseDebugConfiguration<CR>
+vnoremap <leader>dd    <Esc>:action ChooseDebugConfiguration<CR>
 
 " Step (Step into). 's' is the same as gdb.
-nnoremap <leader>mds    :action StepInto<CR>
-vnoremap <leader>mds    <Esc>:action StepInto<CR>
+nnoremap <leader>di    :action StepInto<CR>
+vnoremap <leader>di    <Esc>:action StepInto<CR>

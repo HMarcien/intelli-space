@@ -1,19 +1,23 @@
 " Git checkout
-nnoremap <leader>gb    :action Git.Branches<CR>
-vnoremap <leader>gb    <Esc>:action Git.Branches<CR>
+nnoremap <leader>pb    :action Git.Branches<CR>
+vnoremap <leader>pb    <Esc>:action Git.Branches<CR>
 
 " Show Version control tool window
-nnoremap <leader>gG    :action ActivateVersionControlToolWindow<CR>
-vnoremap <leader>gG    <Esc>:action ActivateVersionControlToolWindow<CR>
-
-" Select a VCS operation
-nnoremap <leader>gg    :action Vcs.QuickListPopupAction<CR>
-vnoremap <leader>gg    <Esc>:action Vcs.QuickListPopupAction<CR>
+nnoremap <leader>pg    :action ActivateVersionControlToolWindow<CR>
+vnoremap <leader>pg    <Esc>:action ActivateVersionControlToolWindow<CR>
 
 " Vcs push (git push)"
-nnoremap <leader>gp    :action Vcs.Push<cr>
-vnoremap <leader>gp    <Esc>:action Vcs.Push<cr>
+nnoremap <leader>pp    :action Vcs.Push<cr>
+vnoremap <leader>pp    <Esc>:action Vcs.Push<cr>
 
-" Show shelf
-nnoremap <leader>gS    :action Vcs.Show.Shelf<CR>
-vnoremap <leader>gS    <Esc>:action Vcs.Show.Shelf<CR>
+" git pull
+nnoremap <Leader>pu :action Git.Pull<CR>
+vnoremap <Leader>pu :action Git.Pull<CR>
+
+" git merge
+nnoremap <Leader>pm :action Git.Merge<CR>
+vnoremap <Leader>pm :action Git.Merge<CR>
+
+" git history
+nnoremap <Leader>ph :action LocalHistory.ShowHistory<CR>
+vnoremap <Leader>ph :action LocalHistory.ShowHistory<CR>

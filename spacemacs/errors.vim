@@ -2,10 +2,6 @@
 nnoremap <leader>el    :action CodeInspection.OnEditor<CR>
 vnoremap <leader>el    <Esc>:action CodeInspection.OnEditor<CR>
 
-" Go to previous error
-nnoremap <leader>eN    :action GotoPreviousError<CR>
-vnoremap <leader>eN    <Esc>:action GotoPreviousError<CR>
-
 " Go to next error
 nnoremap <leader>en    :action GotoNextError<CR>
 vnoremap <leader>en    <Esc>:action GotoNextError<CR>

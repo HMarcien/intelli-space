@@ -10,7 +10,7 @@ source ~/intelli-space/extra/bookmarks.vim
 source ~/intelli-space/extra/buffers.vim
 source ~/intelli-space/extra/compile-comments.vim
 source ~/intelli-space/extra/errors.vim
-source ~/intelli-space/extra/files.vim
+" source ~/intelli-space/extra/files.vim
 source ~/intelli-space/extra/frame.vim
 source ~/intelli-space/extra/git-vcs.vim
 source ~/intelli-space/extra/help-history.vim
